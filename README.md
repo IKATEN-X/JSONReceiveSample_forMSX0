@@ -1,0 +1,2 @@
+# JSONReceiveSample_forMSX0
+MSX0でJSONデータを受信してBASICで使用するサンプルです
