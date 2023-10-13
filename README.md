@@ -10,7 +10,7 @@ Parserがデータを解析するための格納アドレスを&H9000として�
 この辺りは扱うデータの大きさで調整をするのが良いかと思います。  
   
 本サンプルは、BASICであまり大きなメモリが使用できないので、小さな天気データがを取得できる[Open-Meteo](https://open-meteo.com/)を利用しています。  
-JSONで得たいデータは[API Docs](https://open-meteo.com/en/docs)で組み立てることができます。  
+JSONで得たいデータのクエリ文字列は[API Docs](https://open-meteo.com/en/docs)で組み立てることができます。  
 具体的な使い方などは[こちら](https://paiza.hatenablog.com/entry/2021/11/04/130000)をご覧いただくのが早いかと思います。  
   
 またMSX0の不具合なのか、リクエストの方法が間違っているのか、MSX0起動後、最初のHTTPリクエストが失敗します。  
