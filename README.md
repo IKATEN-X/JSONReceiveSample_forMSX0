@@ -9,7 +9,7 @@ Parserがデータを解析するため格納する場所を&H9000としてい�
 また、BASICでも文字列をたくさん使うのでCLEAR文で&HB000からとしています。  
 この辺りは扱うデータの大きさで調整をするのが良いかと思います。  
   
-本サンプルは、BASICであまり大きなメモリが使用できないので、小さな天気用法データがを取得できる[Open-Meteo](https://open-meteo.com/)を利用しています。  
+本サンプルは、BASICであまり大きなメモリが使用できないので、小さな天気データがを取得できる[Open-Meteo](https://open-meteo.com/)を利用しています。  
 JSONで得たいデータは[「URL Builder」公式エディタ](https://open-meteo.com/en/docs)で組み立てることができます。  
 具体的な使い方などは[こちら](https://paiza.hatenablog.com/entry/2021/11/04/130000)をご覧いただくのが早いかと思います。  
   
